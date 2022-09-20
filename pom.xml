@@ -19,6 +19,11 @@
     <build>
         <sourceDirectory>code</sourceDirectory>
         <testSourceDirectory>test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>data</directory>
+            </resource>
+        </resources>
     </build>
     
     <dependencies>
